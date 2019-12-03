@@ -5,9 +5,14 @@ import java.io.IOException;
 import java.awt.image.BufferedImage;
 import javax.imageio.ImageIO;
 
-public class Main {
+public class ReadWrite {
 
-    public static void main(String[] args) {
+    /*
+    This code will read an image from specified location and
+    copies it to another File object and write the previously
+    BufferedImage object.
+     */
+    public static void readwrite(String[] args) {
         int width = 193;
         int height = 200;
 
